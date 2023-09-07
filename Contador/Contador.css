@@ -1,0 +1,57 @@
+#cuerpo-principal{
+    background:linear-gradient(to bottom right,#b350e0,#c37ae6,#d697f3,#fff);
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+   
+}
+
+.contenedor-principal{
+    max-width: 1270px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuenta-regresiva{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 23px;
+    width: 100%;
+}
+
+.contenedor-titulo{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-anio-actual{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 60px;
+}
+
+.contenedor-cuenta-regresiva{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(228, 178, 85, 0.185);
+}
+
+.cuenta-regresiva div > div{
+    margin-bottom: 18px;
+}
